@@ -1,0 +1,22 @@
+{
+  "name": "test_landing_monero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorovDev/test_landing_monero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skorovDev/test_landing_monero/issues"
+  },
+  "homepage": "https://github.com/skorovDev/test_landing_monero#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
