@@ -1,6 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 
 $orange:#FA6800;
+$lightDark: #202020;
+$lightGray: #f4f4f4;
 
 *{
   box-sizing: border-box;
@@ -9,10 +11,9 @@ html body{
   font-size: 18px;
   font-family: 'Inter', sans-serif;
 }
+
 .section{
-  //display: flex;
-  //flex-direction: row;
-  padding-bottom: 90px;
+
 }
 .container{
   max-width: 1050px;
@@ -20,16 +21,128 @@ html body{
 }
 .row{
   display: flex;
-  flex-direction: row;
+  //flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.col{
+  flex:1 1 calc((100% / 3) - 2rem);
+}
+.d-flex{
+  display: flex;
+}
+.jc-between{
+  justify-content: space-between;
+}
+.jc-center{
+  justify-content: center;
+}
+.column{
+  flex-direction: column;
+}
+.pb-3{
+  padding-bottom: 3rem;
+}
+.pb-4{
+  padding-bottom: 4rem;
+}
+.py-5{
+  padding: 5rem 0;
+}
+.mb-2{
+  margin-bottom: 1rem;
+}
+.mb-1{
+  margin-bottom: 1rem;
+}
+.p-1{
+  padding: 1rem;
+}
+.pt-5{
+  padding-top: 5rem;
+}
+
+.section-1{
+  display: flex;
+  p{
+    font-size: 1.22rem;
+  }
+  span{
+    font-size: 0.78rem;
+  }
+  ul{
+    list-style: none;
+    color: $orange;
+    padding: 0;
+  }
+  .btn{
+    text-align: left;
+    display: flex;
+    background-color: $orange;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    img{
+      margin-left: auto;
+    }
+  }
+  .btn:hover{
+    background-color: #fa6780;
+  }
+  select{
+    font-size: 1.22rem;
+    padding: 6px;
+  }
+  input{
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+  }
+}
+
+
+.section-2{
+  padding-bottom: 0;
+  margin-bottom: -90px;
+  .row{
+    margin-bottom: 50px;
+  }
+
+  .col{
+    z-index: 3;
+    width: 470px;
+    height: 590px;
+    padding: 40px;
+  }
+  
+  .bg-black{
+    background-color: #000;
+  }
+}
+.section-2, .section-4{
+  color: white;
+  background-color: $lightDark;
 }
 
 
 .section-3{
+  margin-top: -320px;
+  padding-top: 400px;
   flex-direction: column;
+  background-color: #fff;
+
 }
+
 .section-5{
 
   img{
     max-height: 300px;
   }
+  a{
+    color: $orange;
+  }
+  .section-5-item_img{
+    background-color: $lightGray;
+  }
+
 }
