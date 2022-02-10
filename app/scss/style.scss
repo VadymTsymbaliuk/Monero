@@ -1,147 +1,211 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 
-$orange:#FA6800;
+$orange: #FA6800;
 $lightDark: #202020;
 $lightGray: #f4f4f4;
 
-*{
+* {
   box-sizing: border-box;
 }
-html body{
+
+html body {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
 }
 
-.section{
+h1 {
+  font-size: 4.45rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.55rem;
+  font-weight: 700;
+}
+
+h3 {
 
 }
-.container{
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+.section {
+
+}
+
+.container {
   max-width: 1050px;
   margin: 0 auto;
 }
-.row{
+
+.row {
   display: flex;
   //flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.col{
-  flex:1 1 calc((100% / 3) - 2rem);
+
+.col {
+  flex: 1 1 calc((100% / 3) - 2rem);
 }
-.d-flex{
+
+.d-flex {
   display: flex;
 }
-.jc-between{
+
+.jc-between {
   justify-content: space-between;
 }
-.jc-center{
+
+.jc-center {
   justify-content: center;
 }
-.column{
+
+.column {
   flex-direction: column;
 }
-.pb-3{
+
+.pb-3 {
   padding-bottom: 3rem;
 }
-.pb-4{
+
+.pb-4 {
   padding-bottom: 4rem;
 }
-.py-5{
+
+.py-5 {
   padding: 5rem 0;
 }
-.mb-2{
+
+.mb-2 {
   margin-bottom: 1rem;
 }
-.mb-1{
+
+.mb-1 {
   margin-bottom: 1rem;
 }
-.p-1{
+
+.p-1 {
   padding: 1rem;
 }
-.pt-5{
+
+.pt-5 {
   padding-top: 5rem;
 }
 
-.section-1{
+.bg-black {
+  background-color: #000;
+}
+
+.section-1 {
   display: flex;
-  p{
+
+  p {
     font-size: 1.22rem;
   }
-  span{
+
+  span {
     font-size: 0.78rem;
   }
-  ul{
+
+  ul {
     list-style: none;
     color: $orange;
     padding: 0;
   }
-  .btn{
+
+  .btn {
     text-align: left;
     display: flex;
     background-color: $orange;
     color: white;
     border: none;
     font-size: 1.1rem;
-    img{
+
+    img {
       margin-left: auto;
     }
+
   }
-  .btn:hover{
+
+  .btn:hover {
     background-color: #fa6780;
   }
-  select{
+
+  select {
     font-size: 1.22rem;
     padding: 6px;
   }
-  input{
+
+  input {
     height: 24px;
     width: 24px;
     margin-right: 12px;
   }
+  .row{
+    flex-wrap: nowrap;
+  }
+  .col{
+    flex: 1 1 calc((100% / 3) - 2rem);
+  }
 }
 
 
-.section-2{
+.section-2 {
   padding-bottom: 0;
   margin-bottom: -90px;
-  .row{
+
+  .row {
     margin-bottom: 50px;
   }
 
-  .col{
+  .col {
     z-index: 3;
     width: 470px;
     height: 590px;
     padding: 40px;
   }
-  
-  .bg-black{
-    background-color: #000;
-  }
 }
-.section-2, .section-4{
+
+.section-2, .section-4 {
   color: white;
   background-color: $lightDark;
 }
 
 
-.section-3{
+.section-3 {
   margin-top: -320px;
   padding-top: 400px;
   flex-direction: column;
   background-color: #fff;
 
+  h2{
+    position: relative;
+  }
+  h2:before{
+    content:  url("../images/line.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
 }
 
-.section-5{
+.section-5 {
 
-  img{
+  img {
     max-height: 300px;
   }
-  a{
+
+  a {
     color: $orange;
   }
-  .section-5-item_img{
+
+  .section-5-item_img {
     background-color: $lightGray;
   }
 
