@@ -1,18 +1,35 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 
+$orange:#FA6800;
+
 *{
   box-sizing: border-box;
 }
+html body{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
 .section{
-  display: flex;
-  flex-direction: row;
+  //display: flex;
+  //flex-direction: row;
   padding-bottom: 90px;
 }
 .container{
-  max-width: 1080px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 .row{
   display: flex;
   flex-direction: row;
+}
+
+
+.section-3{
+  flex-direction: column;
+}
+.section-5{
+
+  img{
+    max-height: 300px;
+  }
 }

@@ -4,3 +4,4 @@
 *.scss.map
 .idea
 /node_modules
+./dist
