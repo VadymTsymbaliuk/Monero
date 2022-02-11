@@ -44,7 +44,7 @@ h4 {
 
 .row {
   display: flex;
-  //flex-direction: row;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -161,13 +161,15 @@ h4 {
 
   .row {
     margin-bottom: 50px;
+    gap: 6rem;
   }
 
   .col {
     z-index: 3;
-    width: 470px;
-    height: 590px;
+    //width: 470px;
+    //height: 590px;
     padding: 40px;
+    flex: 0 0 calc((100% / 2) - 6rem)
   }
 }
 
@@ -175,7 +177,6 @@ h4 {
   color: white;
   background-color: $lightDark;
 }
-
 
 .section-3 {
   margin-top: -320px;
@@ -187,10 +188,14 @@ h4 {
     position: relative;
   }
   h2:before{
-    content:  url("../images/line.svg");
+    content: "";
+    display: block;
     position: absolute;
-    bottom: 0;
+    background-color: $orange;
+    top: -15px;
     left: 0;
+    width: 50px;
+    height: 4px;
 
   }
 }
