@@ -1,0 +1,30 @@
+<svg width="124" height="129" viewBox="0 0 124 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_0_2022)">
+<rect width="120" height="120" rx="5" fill="black"/>
+<rect opacity="0.2" y="1" width="120" height="120" fill="black" fill-opacity="0.01"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.1992 36.2C30.1992 33.4385 32.4378 31.2 35.1992 31.2H85.1992C87.9606 31.2 90.1992 33.4385 90.1992 36.2V86.2C90.1992 88.9614 87.9606 91.2 85.1992 91.2H35.1992C32.4378 91.2 30.1992 88.9614 30.1992 86.2V36.2Z" fill="#FA6800"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50.6992 59.2C54.8414 59.2 58.1992 55.8421 58.1992 51.7C58.1992 47.5578 54.8414 44.2 50.6992 44.2C46.5571 44.2 43.1992 47.5578 43.1992 51.7C43.1992 55.8421 46.5571 59.2 50.6992 59.2Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70.6992 59.2C74.8414 59.2 78.1992 55.8421 78.1992 51.7C78.1992 47.5578 74.8414 44.2 70.6992 44.2C66.5571 44.2 63.1992 47.5578 63.1992 51.7C63.1992 55.8421 66.5571 59.2 70.6992 59.2Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70.6992 79.2C74.8414 79.2 78.1992 75.8421 78.1992 71.7C78.1992 67.5578 74.8414 64.2 70.6992 64.2C66.5571 64.2 63.1992 67.5578 63.1992 71.7C63.1992 75.8421 66.5571 79.2 70.6992 79.2Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50.6992 79.2C54.8414 79.2 58.1992 75.8421 58.1992 71.7C58.1992 67.5578 54.8414 64.2 50.6992 64.2C46.5571 64.2 43.1992 67.5578 43.1992 71.7C43.1992 75.8421 46.5571 79.2 50.6992 79.2Z" fill="white"/>
+<g opacity="0.2">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.1992 33.8512C30.1992 32.3869 31.3862 31.2 32.8504 31.2H87.548C89.0122 31.2 90.1992 32.3869 90.1992 33.8512V58.5487C90.1992 60.013 89.0122 61.2 87.548 61.2H32.8504C31.3862 61.2 30.1992 60.013 30.1992 58.5487V33.8512Z" fill="url(#paint0_linear_0_2022)" style="mix-blend-mode:overlay"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_2022" x="-4" y="0" width="128" height="129" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_2022"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_2022" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_2022" x1="66.8326" y1="66.8238" x2="73.1983" y2="37.141" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.5"/>
+<stop offset="1"/>
+</linearGradient>
+</defs>
+</svg>

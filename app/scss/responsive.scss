@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+
+  html, body{
+    font-size: 16px;
+  }
+  .container{
+    padding: 10px;
+  }
+  .section-1{
+    .row{
+      flex-direction: column;
+      align-items: center;
+      .col:first-child{
+        width: 100%;
+      }
+      .col:last-child{
+        display: none;
+      }
+    }
+  }
+  .section-2{
+    .row{
+      justify-content: center;
+    }
+    .col{
+      padding: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  htmb,body{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  .col{
+    flex: 90%
+  }
+  .section-3, .section-5-item_img{
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
