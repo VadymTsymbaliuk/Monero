@@ -91,6 +91,10 @@ p{
   padding: 5rem 0;
 }
 
+.mb-0{
+  margin-bottom: 0;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
 }
@@ -300,6 +304,8 @@ header {
   .section-5-item_img {
     background-color: $lightGray;
     margin-bottom: 20px;
+    max-width: 330px;
+    text-align: center;
   }
 
   h3 {

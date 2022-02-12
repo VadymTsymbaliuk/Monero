@@ -3,6 +3,9 @@
   html, body{
     font-size: 16px;
   }
+  .w-m-100{
+    width: 100%;
+  }
   .container{
     padding: 10px;
   }
@@ -24,6 +27,22 @@
     }
     .col{
       padding: 20px;
+    }
+  }
+  .section-4{
+    p{
+      text-align: center;
+    }
+  }
+  .section-5{
+    .row{
+      flex-direction: column;
+    }
+    .col{
+      text-align: center;
+      div{
+        //margin: 0 auto;
+      }
     }
   }
 }
