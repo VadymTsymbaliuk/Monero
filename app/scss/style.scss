@@ -34,6 +34,9 @@ h3 {
   font-weight: 700;
 }
 
+p{
+  text-align: justify;
+}
 .container {
   max-width: 1050px;
   margin: 0 auto;
@@ -52,6 +55,12 @@ h3 {
 
 .w-50 {
   width: 50%;
+}
+.w-70 {
+  width: 70%;
+}
+.bold-600{
+  font-weight: 600;
 }
 
 .d-flex {
@@ -142,7 +151,6 @@ header {
   }
 
   span {
-    padding-top: 5px;
     font-size: 0.78rem;
     color: $gray;
   }
@@ -161,6 +169,7 @@ header {
     color: white;
     border: none;
     font-size: 1.1rem;
+    border-radius: 3px;
 
     img {
       margin-left: auto;
@@ -173,13 +182,16 @@ header {
 
   select {
     font-size: 1.22rem;
-    padding: 6px;
+    padding: 15px;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
   }
 
   input {
     height: 24px;
     width: 24px;
     margin-right: 12px;
+    border-radius: 3px;
   }
 
   .row {
@@ -192,9 +204,8 @@ header {
 
   hr {
     margin-top: 0;
-    height: 1px;
-    background-color: #ededed;
-    border: 1px #EDEDED;
+    border: none;
+    border-bottom: 1px solid #ededed;
   }
 }
 
@@ -208,6 +219,7 @@ header {
     margin-bottom: 50px;
     gap: 6rem;
   }
+
 
   .col {
     z-index: 3;
@@ -225,6 +237,9 @@ header {
 
     img {
       margin: auto;
+    }
+    p{
+      margin-bottom: 0;
     }
   }
 }
