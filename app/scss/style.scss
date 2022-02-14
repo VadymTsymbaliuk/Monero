@@ -72,6 +72,9 @@ p{
 .jc-center {
   justify-content: center;
 }
+.align-items-center{
+  align-items: center;
+}
 
 .column {
   flex-direction: column;
@@ -175,6 +178,9 @@ header {
     color: $orange;
     padding: 0;
     margin-right: 30px;
+  }
+  label{
+    margin: 0;
   }
 
   .btn {
@@ -284,11 +290,6 @@ header {
 
   .row {
     gap: 2rem;
-  }
-  .col{
-    .mb-2{
-      text-align: center;
-    }
   }
 }
 
