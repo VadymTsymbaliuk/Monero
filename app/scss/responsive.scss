@@ -1,65 +1,71 @@
 @media (max-width: 991px) {
-
-  html, body{
-    font-size: 16px;
-  }
-  .w-m-100{
-    width: 100%;
-  }
-  .container{
-    padding: 10px;
-  }
-  .section-1{
-    .row{
-      flex-direction: column;
-      align-items: center;
-      .col:first-child{
+    
+    html, body {
+        font-size: 16px;
+    }
+    .w-m-100 {
         width: 100%;
-      }
-      .col:last-child{
-        display: none;
-      }
     }
-  }
-  .section-2{
-    .row{
-      justify-content: center;
+    .container {
+        padding: 10px;
     }
-    .col{
-      padding: 20px;
+    .section-1 {
+        .row {
+            flex-direction: column;
+            align-items: center;
+            
+            .col:first-child {
+                width: 100%;
+            }
+            
+            .col:last-child {
+                display: none;
+            }
+        }
     }
-  }
-  .section-4{
-    p{
-      text-align: center;
+    .section-2 {
+        .row {
+            justify-content: center;
+        }
+        
+        .col {
+            padding: 20px;
+        }
     }
-  }
-  .section-5{
-    .row{
-      flex-direction: column;
+    .section-4 {
+        p {
+            text-align: center;
+        }
     }
-    .col{
-      text-align: center;
-      div{
-        //margin: 0 auto;
-      }
+    .section-5 {
+        .row {
+            flex-direction: column;
+        }
+        
+        .col {
+            text-align: center;
+            
+            div {
+                //margin: 0 auto;
+            }
+        }
     }
-  }
 }
+
 @media (max-width: 768px) {
-  htmb,body{
-    font-size: 12px;
-  }
-  h1{
-    font-size: 4rem;
-  }
-  .col{
-    flex: 90%
-  }
-  .section-3, .section-5-item_img{
-    img{
-      display: block;
-      margin: 0 auto;
+    html, body {
+        font-size: 12px;
     }
-  }
+    h1 {
+        font-size: 4rem;
+    }
+    .col {
+        flex: 90%
+    }
+    .section-3, .section-5-item_img {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }
