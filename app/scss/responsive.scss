@@ -1,78 +1,81 @@
 @media (max-width: 991px) {
-    
-    html, body {
-        font-size: 16px;
-    }
-    header{
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-    .w-m-100 {
+
+  html, body {
+    font-size: 16px;
+  }
+  header {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .w-m-100 {
+    width: 100%;
+  }
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .section-1 {
+    .row {
+      flex-direction: column;
+      align-items: center;
+
+      .col:first-child {
         width: 100%;
+      }
+
+      .col:last-child {
+        display: none;
+      }
     }
-    .container {
-        padding-left: 60px;
-        padding-right: 60px;
+  }
+  .section-2 {
+    .row {
+      justify-content: center;
     }
-    .section-1 {
-        .row {
-            flex-direction: column;
-            align-items: center;
-            
-            .col:first-child {
-                width: 100%;
-            }
-            
-            .col:last-child {
-                display: none;
-            }
-        }
+
+    .col {
+      padding: 20px;
     }
-    .section-2 {
-        .row {
-            justify-content: center;
-        }
-        
-        .col {
-            padding: 20px;
-        }
+  }
+  .section-3 {
+    .col {
+      .mb-2 {
+        text-align: center;
+      }
     }
-    .section-3{
-        .col{
-            .mb-2{
-                text-align: center;
-            }
-        }
+  }
+  .section-4 {
+    p {
+      text-align: center;
     }
-    .section-4 {
-        p {
-            text-align: center;
-        }
+  }
+  .section-5 {
+    .row {
+      flex-direction: column;
+      align-items: center;
     }
-    .section-5 {
-        .row {
-            flex-direction: column;
-        }
-        
-        .col {
-            text-align: center;
-        }
-        .section-5-item_img{
-            margin: 20px auto
-        }
+
+    .col {
+      text-align: center;
+      max-width: 500px;
     }
+
+    .section-5-item_img {
+      margin: 20px auto
+    }
+  }
 }
 
 @media (max-width: 768px) {
-    html, body {
-        font-size: 12px;
-    }
+  html, body {
+    font-size: 12px;
+  }
 
-    h1 {
-        font-size: 4rem;
-    }
-    .col {
-        flex: 90%
-    }
+  h1 {
+    font-size: 4rem;
+  }
+  .col {
+    flex: 90%
+  }
 
 }
