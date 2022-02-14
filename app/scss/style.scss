@@ -36,6 +36,7 @@ h3 {
 
 p{
   text-align: justify;
+  margin: 0;
 }
 .container {
   max-width: 1050px;
@@ -242,9 +243,6 @@ header {
 
     img {
       margin: auto;
-    }
-    p{
-      margin-bottom: 0;
     }
   }
 }
