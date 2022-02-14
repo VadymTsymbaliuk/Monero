@@ -44,10 +44,9 @@
         
         .col {
             text-align: center;
-            
-            div {
-                //margin: 0 auto;
-            }
+        }
+        .section-5-item_img{
+            margin: 20px auto
         }
     }
 }
@@ -62,10 +61,5 @@
     .col {
         flex: 90%
     }
-    .section-3, .section-5-item_img {
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-    }
+
 }
